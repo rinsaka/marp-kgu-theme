@@ -8,6 +8,8 @@
 https://raw.githubusercontent.com/rinsaka/marp-kgu-theme/master/kgu.css
 ~~~
 
+![config](config.png)
+
 ## サンプルスライド
 - 拡張子 md のファイルを作成し，次のような内容を保存して，プレビューする（または，PDFにエクスポートする）
 
@@ -42,3 +44,5 @@ theme: kgu
 1. 番号付き箇条書き
 1. 番号付き箇条書き
 ~~~
+
+![slide-sample](slide-sample.png)
