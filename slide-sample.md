@@ -87,11 +87,12 @@ print(a)
 ## グリッド背景に変更
 
 - グリッド入りの背景に変更したページ
+- 特定のページだけ背景を変更できる
 
 ---
 ## リンク
 
-- [GitHubのリポジトリ](https://github.com/rinsaka/marp-kgu-theme)
+- [GitHubのリポジトリ](https://github.com/rinsaka/marp-kgu-theme)へのリンクを作成する
 
 ---
 
@@ -102,6 +103,7 @@ print(a)
 - **太字**にする
 - ***italic bold***を適用
 - ***太字斜体***も可能
+- 文字列に~~取り消し線~~を入れる
 
 ---
 
