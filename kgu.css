@@ -8,21 +8,21 @@ section {
 
 header {
   font-size: 18px;
-  top: 10px;
+  color: #505050;
   padding-left: 35px;
-  color: black;
+  top: 18px;
 }
 
 footer {
   font-size: 18px;
-  color: black;
+  color: #505050;
   padding-left: 250px;
   bottom: 10px;
 }
 
 section::after {
   font-size: 18px;
-  color: black;
+  color: #505050;
   bottom :10px;
   content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
 }
