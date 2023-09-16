@@ -1,0 +1,49 @@
+/* @theme kgu */
+@import "default";
+
+section {
+  background-image: url(https://rinsakas3storage.s3-ap-northeast-1.amazonaws.com/ec2www/marp/kgu16-9.png);
+  background-size: 100%;
+}
+
+header {
+  font-size: 18px;
+  top: 10px;
+  padding-left: 35px;
+  color: black;
+}
+
+footer {
+  font-size: 18px;
+  color: black;
+  padding-left: 250px;
+  bottom: 10px;
+}
+
+section::after {
+  font-size: 18px;
+  color: black;
+  bottom :10px;
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0086cd;
+}
+
+ul > li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 0.6em;
+}
+ul > li:before {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  left: -0.3em;
+  top: 0.53em;
+  content: "";
+  background: #0086cd;
+}
