@@ -46,3 +46,8 @@ theme: kgu
 ~~~
 
 ![slide-sample](slide-sample.png)
+
+# Visual Stdio Code キャッシュの削除方法
+- 本リポジトリの kgu.css を更新しても，Visual Stido Code のキャッシュが残っていると，スタイルが更新されない．
+- その場合は Visual Studio Code のキャッシュを削除するとよい．
+- macOS ではキャッシュが ~Library/Application Support/Code/Cache/Cache_Data にあるので，その中のファイルとディレクトリをまとめて削除すると良い．
